@@ -1,0 +1,17 @@
+theme: minima
+title: My Site
+description: A site with LaTeX support and multiple pages.
+paginate: 5
+
+# Adding new pages to the navigation bar
+navbar:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
