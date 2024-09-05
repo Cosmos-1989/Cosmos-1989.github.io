@@ -1,17 +1,19 @@
-theme: minima
-title: My Site
-description: A site with LaTeX support and multiple pages.
-paginate: 5
+title: My Website
+description: A website with multiple pages and LaTeX support.
 
-# Adding new pages to the navigation bar
+# 设置导航栏链接
 navbar:
   - title: Home
     url: /
   - title: About
     url: /about
+  - title: Blog
+    url: /blog
   - title: Contact
     url: /contact
 
+# 其他Jekyll相关配置
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+theme: minima
